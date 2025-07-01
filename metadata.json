@@ -1,0 +1,11 @@
+{
+  "name": "Influencer Marketing Identification",
+  "description": "An intelligent platform that identifies the most relevant and effective influencers for a brand by leveraging AI to analyze social media metrics, audience demographics, engagement rates, and content relevance. Created by HEREANDNOW AI RESEARCH INSTITUTE.",
+  "companyName": "HEREANDNOW AI RESEARCH INSTITUTE",
+  "companyLogo": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/HNAI%20Fevicon%20-Teal%20%26%20Golden%20Logo%20-%20DESIGN%203%20-%20Raj-03.png",
+  "companyImage": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/HNAI%20Title%20-Teal%20%26%20Golden%20Logo%20-%20DESIGN%203%20-%20Raj-07.png",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Influencer Marketing Identification</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class', // Enable dark mode using a class
+      theme: {
+        extend: {
+          colors: {
+            primary: { // Vibrant Blue
+              light: '#60A5FA', // blue-400
+              DEFAULT: '#3B82F6', // blue-500
+              dark: '#2563EB', // blue-600
+            },
+            secondary: { // Vibrant Orange
+              light: '#FB923C', // orange-400
+              DEFAULT: '#F97316', // orange-500
+              dark: '#EA580C', // orange-600
+            },
+            neutral: {
+              light: '#F3F4F6', // gray-100
+              DEFAULT: '#6B7280', // gray-500
+              dark: '#1F2937', // gray-800
+              darker: '#111827', // gray-900
+            }
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^6.24.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.6.0",
+    "@/": "/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-neutral-dark dark:text-neutral-light bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 dark:from-neutral-darker dark:via-neutral-dark dark:to-neutral-darker transition-colors duration-300">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
